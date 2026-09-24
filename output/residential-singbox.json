@@ -5,7 +5,29 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe",
+      "server": "188.114.97.6",
+      "server_port": 2095,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
+      "server": "36.224.141.124",
+      "server_port": 50099,
+      "method": "chacha20-ietf-poly1305",
+      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
       "server": "hinet1.2yly.com",
       "server_port": 24215,
       "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
@@ -14,7 +36,7 @@
         "server_name": "addons.mozilla.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -25,7 +47,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe",
       "server": "hk01.kfc-520.com",
       "server_port": 60001,
       "password": "8cb0c4fb-03ee-35b8-a47b-cd1d7e76dfd3",
@@ -40,16 +62,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe"
+        "🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe"
+        "🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

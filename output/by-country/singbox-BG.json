@@ -7,33 +7,33 @@
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
       "server": "213.183.63.60",
-      "server_port": 9054,
+      "server_port": 9098,
       "method": "aes-256-cfb",
-      "password": "VcFuyXvND2yQWSFY"
+      "password": "aLpQtfEZe445QyHk"
     },
     {
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe",
       "server": "213.183.63.60",
-      "server_port": 9085,
+      "server_port": 9049,
       "method": "aes-256-cfb",
-      "password": "9ej82EKe2gq7gLAM"
+      "password": "PRBf4BS2HvJqtWxY"
     },
     {
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe",
       "server": "213.183.63.60",
-      "server_port": 9030,
+      "server_port": 9028,
       "method": "aes-256-cfb",
-      "password": "GeregetR8cvQHzYr"
+      "password": "9eeJ2fwnZA5Fxgz8"
     },
     {
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe",
       "server": "213.183.63.60",
-      "server_port": 9064,
+      "server_port": 9085,
       "method": "aes-256-cfb",
-      "password": "cp8pRSUAyLhTfVWH"
+      "password": "9ej82EKe2gq7gLAM"
     },
     {
       "type": "shadowsocks",
@@ -47,25 +47,25 @@
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe",
       "server": "213.183.63.60",
-      "server_port": 9028,
+      "server_port": 9064,
       "method": "aes-256-cfb",
-      "password": "9eeJ2fwnZA5Fxgz8"
+      "password": "cp8pRSUAyLhTfVWH"
     },
     {
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe",
       "server": "213.183.63.60",
-      "server_port": 9098,
+      "server_port": 9054,
       "method": "aes-256-cfb",
-      "password": "aLpQtfEZe445QyHk"
+      "password": "VcFuyXvND2yQWSFY"
     },
     {
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe",
       "server": "213.183.63.60",
-      "server_port": 9049,
+      "server_port": 9061,
       "method": "aes-256-cfb",
-      "password": "PRBf4BS2HvJqtWxY"
+      "password": "4R3hUfZ2FHhDmNcP"
     },
     {
       "type": "vless",
@@ -79,7 +79,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
@@ -100,7 +100,7 @@
         "server_name": "addons.mozilla.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
@@ -112,28 +112,6 @@
     {
       "type": "vless",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 11 - xiaohe",
-      "server": "131.123.41.18",
-      "server_port": 8081,
-      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
-      "transport": {
-        "type": "ws",
-        "path": "/vless-test"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 12 - xiaohe",
-      "server": "131.123.37.199",
-      "server_port": 8081,
-      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
-      "transport": {
-        "type": "ws",
-        "path": "/vless-test"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 13 - xiaohe",
       "server": "131.123.41.177",
       "server_port": 8081,
       "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
@@ -144,7 +122,40 @@
     },
     {
       "type": "vless",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 12 - xiaohe",
+      "server": "131.123.41.18",
+      "server_port": 8081,
+      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
+      "transport": {
+        "type": "ws",
+        "path": "/vless-test"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 13 - xiaohe",
+      "server": "131.123.37.199",
+      "server_port": 8081,
+      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
+      "transport": {
+        "type": "ws",
+        "path": "/vless-test"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 14 - xiaohe",
+      "server": "131.123.41.31",
+      "server_port": 8081,
+      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
+      "transport": {
+        "type": "ws",
+        "path": "/vless-test"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 15 - xiaohe",
       "server": "131.123.41.18",
       "server_port": 443,
       "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
@@ -154,7 +165,7 @@
         "server_name": "sheetpeek.com",
         "utls": {
           "enabled": true,
-          "fingerprint": ""
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -164,23 +175,33 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 15 - xiaohe",
-      "server": "213.183.63.60",
-      "server_port": 9061,
-      "method": "aes-256-cfb",
-      "password": "4R3hUfZ2FHhDmNcP"
-    },
-    {
       "type": "vless",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 16 - xiaohe",
-      "server": "131.123.41.31",
-      "server_port": 8081,
-      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
-      "transport": {
-        "type": "ws",
-        "path": "/vless-test"
+      "server": "gerwai1488.vvzzkontaktezzvv.garden",
+      "server_port": 443,
+      "uuid": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "gerwai1488.vvzzkontaktezzvv.garden",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "EYfpgja4VjpLUnWHtDJQ1XZk6xL5j4rXwf80Sw6keV0",
+          "short_id": "0c13e8822e7f58aa"
+        }
       }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 17 - xiaohe",
+      "server": "213.183.63.60",
+      "server_port": 9030,
+      "method": "aes-256-cfb",
+      "password": "GeregetR8cvQHzYr"
     },
     {
       "type": "selector",
@@ -202,7 +223,8 @@
         "🇧🇬 保加利亚 (Bulgaria) 13 - xiaohe",
         "🇧🇬 保加利亚 (Bulgaria) 14 - xiaohe",
         "🇧🇬 保加利亚 (Bulgaria) 15 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 16 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 16 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 17 - xiaohe"
       ]
     },
     {
@@ -224,7 +246,8 @@
         "🇧🇬 保加利亚 (Bulgaria) 13 - xiaohe",
         "🇧🇬 保加利亚 (Bulgaria) 14 - xiaohe",
         "🇧🇬 保加利亚 (Bulgaria) 15 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 16 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 16 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 17 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
