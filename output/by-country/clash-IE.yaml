@@ -18,7 +18,7 @@ proxies:
   servername: www.tesla.com
   client-fingerprint: chrome
 - name: 🇮🇪 爱尔兰 (Ireland) 02 - xiaohe
-  server: ireland-new-ded1.failspace.top
+  server: 50.7.5.187
   port: 443
   udp: true
   type: vless
@@ -26,8 +26,7 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   servername: ireland-new-ded1.failspace.top
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
