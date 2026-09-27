@@ -6,65 +6,14 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "172.66.40.161",
-      "server_port": 443,
-      "uuid": "c47eb7ab-2c2d-44e0-80cc-bb104f89a137",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.terence-tunnel.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server": "172.67.204.153",
+      "server_port": 2052,
+      "uuid": "b1a8d1eb-dfb2-4dd3-afe6-cd0fff8177df",
       "transport": {
         "type": "ws",
-        "path": "/tunnel",
+        "path": "/@BlueKnight_net--@BlueKnight_net",
         "headers": {
-          "Host": "www.terence-tunnel.org"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "172.66.40.161",
-      "server_port": 443,
-      "uuid": "c47eb7ab-2c2d-44e0-80cc-bb104f89a137",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.terence-tunnel.org",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tunnel",
-        "headers": {
-          "Host": "www.terence-tunnel.org"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 03 - xiaohe",
-      "server": "172.66.40.161",
-      "server_port": 443,
-      "uuid": "c47eb7ab-2c2d-44e0-80cc-bb104f89a137",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.terence-tunnel.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tunnel",
-        "headers": {
-          "Host": "www.terence-tunnel.org"
+          "Host": "uwu.blueknightnet.qzz.io"
         }
       }
     },
@@ -73,18 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe",
-        "🌐 其他地区 (Other) 02 - xiaohe",
-        "🌐 其他地区 (Other) 03 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe",
-        "🌐 其他地区 (Other) 02 - xiaohe",
-        "🌐 其他地区 (Other) 03 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
