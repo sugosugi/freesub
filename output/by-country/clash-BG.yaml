@@ -13,25 +13,25 @@ proxies:
   password: cp8pRSUAyLhTfVWH
 - name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
   server: 213.183.63.60
-  port: 9054
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: VcFuyXvND2yQWSFY
-- name: 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
-  server: 213.183.63.60
   port: 9066
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: 2KUaE2a8NWTvuCZ3
-- name: 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
+- name: 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
   server: 213.183.63.60
-  port: 9085
+  port: 9028
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: 9ej82EKe2gq7gLAM
+  password: 9eeJ2fwnZA5Fxgz8
+- name: 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
+  server: 213.183.63.60
+  port: 9049
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: PRBf4BS2HvJqtWxY
 - name: 🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe
   server: 213.183.63.60
   port: 9030
@@ -47,20 +47,6 @@ proxies:
   cipher: aes-256-cfb
   password: aLpQtfEZe445QyHk
 - name: 🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe
-  server: 213.183.63.60
-  port: 9028
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 9eeJ2fwnZA5Fxgz8
-- name: 🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe
-  server: 213.183.63.60
-  port: 9049
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: PRBf4BS2HvJqtWxY
-- name: 🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe
   server: 193.148.59.178
   port: 443
   udp: true
@@ -73,6 +59,20 @@ proxies:
     short-id: e3daad69
   servername: www.apple.com
   client-fingerprint: chrome
+- name: 🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe
+  server: 213.183.63.60
+  port: 9054
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: VcFuyXvND2yQWSFY
+- name: 🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe
+  server: 213.183.63.60
+  port: 9085
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: 9ej82EKe2gq7gLAM
 - name: 🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe
   server: 136.175.82.85
   port: 18775
@@ -87,33 +87,25 @@ proxies:
   servername: addons.mozilla.org
   client-fingerprint: chrome
 - name: 🇧🇬 保加利亚 (Bulgaria) 11 - xiaohe
-  server: 108.165.233.223
+  server: 131.123.41.223
   port: 443
   udp: true
   type: vless
-  uuid: 2388e166-3890-33ae-f77e-efac00000001
-  tls: true
-  servername: netlivpn4813.ddhshhshs.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
-    headers:
-      Host: netlivpn4813.ddhshhshs.workers.dev
-- name: 🇧🇬 保加利亚 (Bulgaria) 12 - xiaohe
-  server: bg.masterpgd.com
-  port: 6016
-  udp: true
-  type: vless
-  uuid: 1cc6bd10-e414-4171-9220-09aaba23a6fa
+  uuid: 33e8bd3a-26f0-4e57-bc27-e5552a81c880
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: ZqviTSUKpqxl9htoEiix8iIH3lRB6ahvw00btl-HOSk
-    short-id: 1779b108c9eb4da7
-  servername: play.google.com
+    public-key: dsyxDiVtAFRjKOqLdqof2SuygewTO-EWTd34Jk1YYVo
+    short-id: e9433de76a53573b
+  servername: bulgaria.stream-live.ru
   client-fingerprint: chrome
+- name: 🇧🇬 保加利亚 (Bulgaria) 12 - xiaohe
+  server: 213.183.63.60
+  port: 9061
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: 4R3hUfZ2FHhDmNcP
 proxy-groups:
 - name: PROXIES
   type: select
