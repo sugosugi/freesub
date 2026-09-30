@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
-  server: 51.161.204.244
+- name: 🇬🇷 希腊 (Greece) 01 - xiaohe
+  server: 85.90.197.220
   port: 443
   udp: true
   type: vless
-  uuid: 36e89875-9c53-482b-bc41-d3890e9da176
+  uuid: 8f704ed6-9a1a-4d04-94dd-1bff501716de
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: gCAazs5uxNuMZIxfDdw8wPE0nwKY4QfBfBkQveKAkEk
-    short-id: 0ad08b47f498efd2
+    public-key: biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4
+    short-id: 94acb54627612d43
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: qq
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
+  - 🇬🇷 希腊 (Greece) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
+  - 🇬🇷 希腊 (Greece) 01 - xiaohe
 rules:
 - MATCH,PROXIES
