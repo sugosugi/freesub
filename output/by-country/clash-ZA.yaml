@@ -19,12 +19,13 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: Xsy8Ox4yOV3xLlpxtjzs3X
 - name: 🇿🇦 南非 (South Africa) 03 - xiaohe
-  server: 139.84.247.164
-  port: 8388
+  server: zfd-boardv2.kunlun01dns.com
+  port: 16266
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: tfAcRikawhNoZAhu
+  type: vmess
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
 - name: 🇿🇦 南非 (South Africa) 04 - xiaohe
   server: 34.35.174.143
   port: 443
@@ -37,6 +38,13 @@ proxies:
     short-id: 5ced03e42cc31aab
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇿🇦 南非 (South Africa) 05 - xiaohe
+  server: 139.84.247.164
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: tfAcRikawhNoZAhu
 proxy-groups:
 - name: PROXIES
   type: select
@@ -46,6 +54,7 @@ proxy-groups:
   - 🇿🇦 南非 (South Africa) 02 - xiaohe
   - 🇿🇦 南非 (South Africa) 03 - xiaohe
   - 🇿🇦 南非 (South Africa) 04 - xiaohe
+  - 🇿🇦 南非 (South Africa) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -55,5 +64,6 @@ proxy-groups:
   - 🇿🇦 南非 (South Africa) 02 - xiaohe
   - 🇿🇦 南非 (South Africa) 03 - xiaohe
   - 🇿🇦 南非 (South Africa) 04 - xiaohe
+  - 🇿🇦 南非 (South Africa) 05 - xiaohe
 rules:
 - MATCH,PROXIES

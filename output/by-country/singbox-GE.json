@@ -5,24 +5,20 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "188.114.97.1",
-      "server_port": 2053,
-      "uuid": "0b3e7958-e5c4-498f-ab21-b49686f95d2d",
+      "tag": "🇬🇪 格鲁吉亚 (Georgia) 01 - xiaohe",
+      "server": "geo.shkola112.site",
+      "server_port": 443,
+      "uuid": "76ac91c5-ea82-4046-8ee7-2ffbb563ac94",
       "tls": {
         "enabled": true,
-        "server_name": "bold-term-4edd.mbigspot.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "geo.shkola112.site",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/api-vless",
         "headers": {
-          "Host": "bold-term-4edd.mbigspot.workers.dev"
+          "Host": "geo.shkola112.site"
         }
       }
     },
@@ -31,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇬🇪 格鲁吉亚 (Georgia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇬🇪 格鲁吉亚 (Georgia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
