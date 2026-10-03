@@ -5,17 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇳 印度 (India) 01 - xiaohe
-  server: 139.64.235.30
-  port: 8880
-  udp: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime09.workers.dev
-- name: 🇮🇳 印度 (India) 02 - xiaohe
   server: 194.61.31.126
   port: 2053
   udp: true
@@ -27,7 +16,23 @@ proxies:
     short-id: 9980e0609b0d3891
   servername: www.apple.com
   client-fingerprint: firefox
+- name: 🇮🇳 印度 (India) 02 - xiaohe
+  server: 35.244.28.130
+  port: 443
+  udp: true
+  type: trojan
+  password: M7v%w11Se*
+  sni: tttyder.wsone.icu
+  skip-cert-verify: false
 - name: 🇮🇳 印度 (India) 03 - xiaohe
+  server: 34.131.228.210
+  port: 443
+  udp: true
+  type: trojan
+  password: M7v%w11Se*
+  sni: hyfuuf6.wsone.icu
+  skip-cert-verify: true
+- name: 🇮🇳 印度 (India) 04 - xiaohe
   server: 148.113.5.44
   port: 443
   udp: true
@@ -39,15 +44,7 @@ proxies:
     public-key: QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI
     short-id: 221873918e0bb74d
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇮🇳 印度 (India) 04 - xiaohe
-  server: 35.244.28.130
-  port: 443
-  udp: true
-  type: trojan
-  password: M7v%w11Se*
-  sni: tttyder.wsone.icu
-  skip-cert-verify: false
+  client-fingerprint: edge
 - name: 🇮🇳 印度 (India) 05 - xiaohe
   server: 152.67.8.205
   port: 80
