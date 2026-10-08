@@ -7,17 +7,17 @@
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
       "server": "213.183.63.60",
-      "server_port": 9061,
+      "server_port": 9085,
       "method": "aes-256-cfb",
-      "password": "4R3hUfZ2FHhDmNcP"
+      "password": "9ej82EKe2gq7gLAM"
     },
     {
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe",
       "server": "213.183.63.60",
-      "server_port": 9030,
+      "server_port": 9054,
       "method": "aes-256-cfb",
-      "password": "GeregetR8cvQHzYr"
+      "password": "VcFuyXvND2yQWSFY"
     },
     {
       "type": "shadowsocks",
@@ -31,21 +31,13 @@
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe",
       "server": "213.183.63.60",
-      "server_port": 9085,
+      "server_port": 9030,
       "method": "aes-256-cfb",
-      "password": "9ej82EKe2gq7gLAM"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe",
-      "server": "213.183.63.60",
-      "server_port": 9098,
-      "method": "aes-256-cfb",
-      "password": "aLpQtfEZe445QyHk"
+      "password": "GeregetR8cvQHzYr"
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe",
       "server": "87.120.216.137",
       "server_port": 443,
       "uuid": "2b781b4a-5942-48e0-a7f3-5a07b7b488c1",
@@ -55,7 +47,7 @@
         "server_name": "de-root.sworkingvpn.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
@@ -66,15 +58,15 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe",
       "server": "213.183.63.60",
-      "server_port": 9064,
+      "server_port": 9066,
       "method": "aes-256-cfb",
-      "password": "cp8pRSUAyLhTfVWH"
+      "password": "2KUaE2a8NWTvuCZ3"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe",
       "server": "213.183.63.60",
       "server_port": 9028,
       "method": "aes-256-cfb",
@@ -82,11 +74,32 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe",
       "server": "213.183.63.60",
-      "server_port": 9054,
+      "server_port": 9064,
       "method": "aes-256-cfb",
-      "password": "VcFuyXvND2yQWSFY"
+      "password": "cp8pRSUAyLhTfVWH"
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe",
+      "server": "87.120.205.56",
+      "server_port": 443,
+      "uuid": "2b781b4a-5942-48e0-a7f3-5a07b7b488c1",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "de-root.sworkingvpn.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "AhLy7ha7FF2EQfu-3SxOFKUwExyHActYPHtyv82KNCI",
+          "short_id": "15bcc0a77c3cacdf"
+        }
+      }
     },
     {
       "type": "vless",
@@ -100,33 +113,12 @@
         "server_name": "addons.mozilla.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
           "public_key": "oR75S6pg_RDAKIuzv_WrCiwaUqqFoek2iuo5N22llQQ",
           "short_id": "6ba85179e30d4fc2"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 11 - xiaohe",
-      "server": "87.120.205.56",
-      "server_port": 443,
-      "uuid": "2b781b4a-5942-48e0-a7f3-5a07b7b488c1",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "de-root.sworkingvpn.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "AhLy7ha7FF2EQfu-3SxOFKUwExyHActYPHtyv82KNCI",
-          "short_id": "15bcc0a77c3cacdf"
         }
       }
     },
@@ -144,8 +136,7 @@
         "🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe",
         "🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe",
         "🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 11 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe"
       ]
     },
     {
@@ -161,8 +152,7 @@
         "🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe",
         "🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe",
         "🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 11 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
