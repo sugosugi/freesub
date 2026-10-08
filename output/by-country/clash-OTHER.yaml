@@ -5,33 +5,27 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: undef.network
-  port: 2053
+  server: 104.18.35.86
+  port: 443
   udp: true
-  type: vless
-  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
-  tls: true
-  servername: uwu.blueknightnet.qzz.io
-  skip-cert-verify: false
+  type: trojan
+  password: humanity
+  sni: www.volumerOot.coM.
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
-    headers:
-      Host: uwu.blueknightnet.qzz.io
+    path: /assignment
 - name: 🌐 其他地区 (Other) 02 - xiaohe
-  server: hikvision-plus.com
-  port: 2053
+  server: 104.18.35.86
+  port: 443
   udp: true
-  type: vless
-  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
-  tls: true
-  servername: uwu.blueknightnet.qzz.io
+  type: trojan
+  password: humanity
+  sni: www.volumerOot.coM.
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
-    headers:
-      Host: uwu.blueknightnet.qzz.io
+    path: /assignment
 proxy-groups:
 - name: PROXIES
   type: select

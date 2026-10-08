@@ -4,40 +4,50 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "undef.network",
-      "server_port": 2053,
-      "uuid": "e3fb01b6-69b4-41d7-babf-696d992de194",
+      "server": "104.18.35.86",
+      "server_port": 443,
+      "password": "humanity",
       "tls": {
         "enabled": true,
-        "server_name": "uwu.blueknightnet.qzz.io",
-        "insecure": false
+        "server_name": "www.volumerOot.coM.",
+        "insecure": true,
+        "alpn": [
+          "http/1.1"
+        ]
       },
       "transport": {
         "type": "ws",
-        "path": "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net",
+        "path": "/assignment",
         "headers": {
-          "Host": "uwu.blueknightnet.qzz.io"
+          "Host": "www.volumerOot.coM."
         }
       }
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "hikvision-plus.com",
-      "server_port": 2053,
-      "uuid": "e3fb01b6-69b4-41d7-babf-696d992de194",
+      "server": "104.18.35.86",
+      "server_port": 443,
+      "password": "humanity",
       "tls": {
         "enabled": true,
-        "server_name": "uwu.blueknightnet.qzz.io",
-        "insecure": false
+        "server_name": "www.volumerOot.coM.",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "unsafe"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net",
+        "path": "/assignment",
         "headers": {
-          "Host": "uwu.blueknightnet.qzz.io"
+          "Host": "www.volumerOot.coM."
         }
       }
     },
